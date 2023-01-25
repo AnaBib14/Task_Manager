@@ -1,16 +1,78 @@
 .boxmodel1{
-    width:600px;
+    width:630px;
     height:200px;
     margin: 0 auto;
     margin-top:150px;
     border-right-style: hidden;
-    box-shadow: 1.5px 5px #D8D8D8;
-    background-color: #E5E5E5 ;
+    box-shadow: 2px 5px 5px #DFDDDD;
+    background-color: DADADA ;
     
    
 }
+.boxmodel2{
+    width:550px;
+    height:100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top:50px;
+    align-items: center;
+    border-right-style: hidden;
+    justify-content: space-between;
+    box-shadow: 2px 5px 5px #DFDDDD;
+    background-color: #E8E8E8 ;
+    padding:0 40px ;
+  
+    
 
-input{
+}
+.boxmodel3{
+    width:600px;
+    height:100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top:300px;
+    align-items: center;
+    border-right-style: hidden;
+    justify-content: space-between;
+    box-shadow: 1.5px 5px #D8D8D8;
+    background-color: #E5E5E5 ;
+    padding:0 10px ;
+}
+
+.delete_button{
+  
+    background: url(delete.png);
+    background-size: contain;
+    cursor:pointer;
+    border: none;
+}
+ .edit{
+    background:url(edit.png);
+    background-size: contain;
+    cursor:pointer;
+ }
+
+ .done{
+    
+    background: url(done.png);
+    background-size: contain;
+    cursor: pointer;
+  
+ }
+
+ .edit,
+ .delete_button,
+ .done{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    
+ }
+ 
+ 
+
+
+.input1{
     padding-right:110px;
     padding-bottom:4px;
     margin-left:100px ;
@@ -26,6 +88,36 @@ input{
 
     
 }
+.edit_input
+{
+    padding-right:130px;
+    padding-bottom:4px;
+    margin-left:100px ;
+    margin-top: 20px;
+    background-color:#F2F3F4 ;
+    border-color: #C0C0CC;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 160px;
+    height: 25px;
+    
+
+
+}
+.edit_input1{
+    padding-right:130px;
+    padding-bottom:4px;
+    margin-left:130px ;
+    margin-top: 20px;
+    background-color:#F2F3F4 ;
+    border-color: #C0C0CC;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 160px;
+    height: 25px;
+    
+
+}
 
 body{
 
@@ -40,7 +132,7 @@ h1{
     padding-top:40px;
 }
 
-button
+.submit
 {
     background-color: #693DF0 ;
     width: 95px;
@@ -51,12 +143,40 @@ button
     padding-left: 10px;
 }
 
-button:hover{
+.submit:hover{
     background-color:#E67AFC ;
     color:rgb(12, 6, 6);
     
 }
    
+.edit_button{
+    margin: 0 auto;
+    background-color: #693DF0 ;
+    width: 600px;
+    height:40px;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    align-items: center;
+    margin-top:90px;
+    font-size: 25px;
+    
+   
+}
+
+.edit_boxmodel{
+    width:600px;
+    height:400px;
+    margin: 0 auto;
+    margin-top:150px;
+    border-right-style: hidden;
+   background-color: #E8E8E8;
+   box-shadow: 2px 5px 5px #DFDDDD;
+   
+
+    
+
+}
    
 
 P{
@@ -64,4 +184,52 @@ P{
     text-align: center;
     padding-top: 150px;
     font-size: 20px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-weight: normal;
+
+}
+
+label {
+    padding-left: 15px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-weight: normal;
+    color:#3B3939;
+    
+    
+    
+}
+
+.completed1{
+    margin-bottom: 20px;
+}
+
+.check{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.back_button {
+    background-color:#060000;
+    margin: 0 auto;
+    display: block;
+    width:320px;
+    height:60px;
+    border: none;
+    border-radius: 6px;
+    color:white;
+    align-items: center;
+    margin-top:90px; 
+    font-size: 20px;
+    letter-spacing:2px;
+   
+
+
+}
+.link{
+    text-decoration: none;
 }
