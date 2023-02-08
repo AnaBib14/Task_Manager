@@ -14,41 +14,15 @@
 <body>
     <div class="boxmodel1">
         <h1>Task Manager</h1>
-        <input class="input1" type="text" placeholder="Enter your Email"> 
-        <button  class="submit" type="button" >Submit</button>
+        <input  id= "inputValue"class="input1" type="text" placeholder="Enter your Email"> 
+        <button  onclick="alert(addList)" class="submit" type="button" >Submit</button>
     </div>
-    <main>
+<main id="Taskbox">
+    
+    
 
-    <div class="boxmodel2">
-        <h3> 
-         <span class="done" ></span>
-            HTML & CSS 
-        </h3>
-         <div class="buttons">
-            <a class="edit" href="edit_task.html"></a>
-            <button class="delete_button"></button>
-            
-            
 
-        </div>
-           
-    </div>
-    <div class="boxmodel2">
-        <h3> 
-         <span class="done" ></span>
-            Web Application
-        </h3>
-         <div class="buttons">
-            <a class="edit" href="edit_task.html"></a>
-            <button class="delete_button"></button>
-            
-            
-
-        </div>
-           
-    </div>
-
-    <div class="boxmodel2">
+    <div class="boxmodel2 task" >
         <h3> 
          <span class="done" ></span>
             Java Script
@@ -62,11 +36,14 @@
         </div>
            
     </div>
+</main>
         
         
     
     
    
-    <!-- <p>No Task In Your List...</p> -->
+   <p>No Task In Your List...</p>
+   <script src="./first.js"></script>
+
 </body>
 </html>
