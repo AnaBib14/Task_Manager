@@ -237,3 +237,18 @@ label {
 .link{
     text-decoration: none;
 }
+ #errorMessage{
+    display: none;
+    padding-left:100px;
+    
+ }
+
+ .error{
+    display: block !important;
+    color:red;
+ }
+
+ .success{
+    display: block !important;
+    color:green;
+ }
